@@ -13,6 +13,7 @@
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
+    "declaration": true,
     "strictPropertyInitialization": false
   },
   "exclude": [

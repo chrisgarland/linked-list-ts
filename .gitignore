@@ -1,0 +1,11 @@
+# External pkg
+node_modules
+
+# build
+build
+
+# IDE
+.idea
+
+# local
+.eslintcache

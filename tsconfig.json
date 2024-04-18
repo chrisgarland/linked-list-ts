@@ -9,7 +9,7 @@
       "ES2020.Promise"
     ],
     "esModuleInterop": true,
-    "outDir": "./build",
+    "outDir": "./dist",
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,

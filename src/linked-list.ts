@@ -6,19 +6,19 @@ class ListNode<T> {
 
   constructor(private readonly data: T) {}
 
-  getNext(): Nullable<ListNode<T>> { return this.next }
+  getNext(): Nullable<ListNode<T>> { return this.next; }
 
-  getPrev(): Nullable<ListNode<T>> { return this.prev }
+  getPrev(): Nullable<ListNode<T>> { return this.prev; }
 
-  getData(): T { return this.data }
+  getData(): T { return this.data; }
 
-  setNext(node: ListNode<T>): void { this.next = node }
+  setNext(node: ListNode<T>): void { this.next = node; }
 
-  setPrev(node: ListNode<T>): void { this.prev = node }
+  setPrev(node: ListNode<T>): void { this.prev = node; }
 
-  pruneNext(): void { this.next = null }
+  pruneNext(): void { this.next = null; }
 
-  prunePrev(): void { this.prev = null }
+  prunePrev(): void { this.prev = null; }
 }
 
 export class LinkedList<T> {
@@ -32,11 +32,11 @@ export class LinkedList<T> {
     return list;
   }
 
-  size(): number { return this.numNodes }
+  size(): number { return this.numNodes; }
 
-  getFirst(): Nullable<T> { return this.head?.getData() || null }
+  getFirst(): Nullable<T> { return this.head?.getData() || null; }
 
-  getLast(): Nullable<T> { return this?.tail?.getData() || null }
+  getLast(): Nullable<T> { return this?.tail?.getData() || null; }
 
   insertFirst(data: T): void {
     const node = new ListNode(data);

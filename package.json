@@ -1,6 +1,6 @@
 {
   "name": "ts-doubly-linked-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Doubly Linked List",
   "main": "dist/linked-list.js",
   "types": "dist/linked-list.d.ts",
